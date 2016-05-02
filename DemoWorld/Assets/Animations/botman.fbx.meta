@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: cd7fbd839f03ce5449b69374e78d14f8
+timeCreated: 1462220640
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackJNT1
+    100002: BotCapeJNT1
+    100004: //RootNode
+    100006: CapeJNT
+    100008: group2
+    100010: headCapeJNT1
+    100012: HeadJNT1
+    100014: L_ankleJNT1
+    100016: L_armJNT
+    100018: L_armJNT1
+    100020: L_elbowJNT1
+    100022: L_footJNT1
+    100024: L_handJNT1
+    100026: L_kneeJNT1
+    100028: L_legJNT1
+    100030: L_wristJNT1
+    100032: MidCapeJNT1
+    100034: NeckCapeJNT1
+    100036: pasted__pCube1
+    100038: pasted__pCube4
+    100040: pCube1
+    100042: pCube19
+    100044: pCube20
+    100046: pCube23
+    100048: pCube24
+    100050: pCube27
+    100052: PlacementCTL
+    100054: pSphere5
+    100056: R_ankleJNT1
+    100058: R_elbowJNT1
+    100060: R_footJNT1
+    100062: R_handJNT1
+    100064: R_kneeJNT1
+    100066: R_legJNT1
+    100068: R_wristJNT1
+    100070: RootCTL
+    100072: RootJNT
+    100074: upperCapeJNT1
+    400000: BackJNT1
+    400002: BotCapeJNT1
+    400004: //RootNode
+    400006: CapeJNT
+    400008: group2
+    400010: headCapeJNT1
+    400012: HeadJNT1
+    400014: L_ankleJNT1
+    400016: L_armJNT
+    400018: L_armJNT1
+    400020: L_elbowJNT1
+    400022: L_footJNT1
+    400024: L_handJNT1
+    400026: L_kneeJNT1
+    400028: L_legJNT1
+    400030: L_wristJNT1
+    400032: MidCapeJNT1
+    400034: NeckCapeJNT1
+    400036: pasted__pCube1
+    400038: pasted__pCube4
+    400040: pCube1
+    400042: pCube19
+    400044: pCube20
+    400046: pCube23
+    400048: pCube24
+    400050: pCube27
+    400052: PlacementCTL
+    400054: pSphere5
+    400056: R_ankleJNT1
+    400058: R_elbowJNT1
+    400060: R_footJNT1
+    400062: R_handJNT1
+    400064: R_kneeJNT1
+    400066: R_legJNT1
+    400068: R_wristJNT1
+    400070: RootCTL
+    400072: RootJNT
+    400074: upperCapeJNT1
+    4300000: pCube1
+    4300002: pSphere5
+    4300004: pCube19
+    4300006: pCube20
+    4300008: pCube23
+    4300010: pCube24
+    4300012: pCube27
+    4300014: pasted__pCube1
+    4300016: pasted__pCube4
+    9500000: //RootNode
+    13700000: pasted__pCube1
+    13700002: pasted__pCube4
+    13700004: pCube1
+    13700006: pCube19
+    13700008: pCube20
+    13700010: pCube23
+    13700012: pCube24
+    13700014: pCube27
+    13700016: pSphere5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
