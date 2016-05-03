@@ -34,6 +34,10 @@ Thumbs.db
 /DemoWorld/[Bb]uild/
 /DemoWorld/[Bb]uilds/
 #/Assets/AssetStoreTools*
+/DemoWorld/[Aa]ssets/Editor.meta
+/DemoWorld/[Aa]ssets/Editor/
+/DemoWorld/[Aa]ssets/Standard\ Assets/
+/DemoWorld/[Aa]ssets/Standard\ Assets.meta
 
 # Unity3D generated meta files
 *.pidb.meta
