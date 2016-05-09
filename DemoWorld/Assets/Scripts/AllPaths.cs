@@ -1,15 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class AllPaths : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	public PathController startPath;
+	public PathController firstPath;
+	public PathController secondPath;
+	public PathController thirdPath;
+	public PathController lastPath;
 }

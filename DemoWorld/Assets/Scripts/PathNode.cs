@@ -2,14 +2,10 @@
 using System.Collections;
 
 public class PathNode : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	public PathNode next = null;
+	public Vector3 position = new Vector3(0.0f,0.0f,0.0f);
+	public float timeTo = 3.0f;
+	public bool isEnd = false;
+	public bool isStart = false;
+	public int val;
 }
