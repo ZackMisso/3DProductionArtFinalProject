@@ -61,7 +61,7 @@ ModelImporter:
     400050: RootCTL
     400052: RootJNT
     400054: upperCapeJNT1
-    7400000: Take 001
+    7400000: runAnim
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -83,7 +83,91 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: runAnim
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PlacementCTL
+        weight: 1
+      - path: PlacementCTL/RootCTL
+        weight: 1
+      - path: RootJNT
+        weight: 1
+      - path: RootJNT/BackJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/CapeJNT
+        weight: 1
+      - path: RootJNT/BackJNT1/CapeJNT/upperCapeJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/CapeJNT/upperCapeJNT1/headCapeJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/CapeJNT/upperCapeJNT1/headCapeJNT1/NeckCapeJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/CapeJNT/upperCapeJNT1/headCapeJNT1/NeckCapeJNT1/MidCapeJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/CapeJNT/upperCapeJNT1/headCapeJNT1/NeckCapeJNT1/MidCapeJNT1/BotCapeJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/HeadJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/L_armJNT
+        weight: 1
+      - path: RootJNT/BackJNT1/L_armJNT/R_elbowJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/L_armJNT/R_elbowJNT1/R_wristJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/L_armJNT/R_elbowJNT1/R_wristJNT1/R_handJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/L_armJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/L_armJNT1/L_elbowJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/L_armJNT1/L_elbowJNT1/L_wristJNT1
+        weight: 1
+      - path: RootJNT/BackJNT1/L_armJNT1/L_elbowJNT1/L_wristJNT1/L_handJNT1
+        weight: 1
+      - path: RootJNT/L_legJNT1
+        weight: 1
+      - path: RootJNT/L_legJNT1/L_kneeJNT1
+        weight: 1
+      - path: RootJNT/L_legJNT1/L_kneeJNT1/L_ankleJNT1
+        weight: 1
+      - path: RootJNT/L_legJNT1/L_kneeJNT1/L_ankleJNT1/L_footJNT1
+        weight: 1
+      - path: RootJNT/R_legJNT1
+        weight: 1
+      - path: RootJNT/R_legJNT1/R_kneeJNT1
+        weight: 1
+      - path: RootJNT/R_legJNT1/R_kneeJNT1/R_ankleJNT1
+        weight: 1
+      - path: RootJNT/R_legJNT1/R_kneeJNT1/R_ankleJNT1/R_footJNT1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
