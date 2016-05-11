@@ -6,12 +6,15 @@ public class PathCollider : MonoBehaviour {
 	public bool isStart;
 
 	void OnTriggerEnter(Collider other) {
-		if(other.gameObject.tag == "player") {
+		if(other.gameObject.tag == "Player") {
 			PlayerController controller = other.gameObject.GetComponent<PlayerController>();
 			if(controller == null) {
 				Debug.Log("Fatal Error :: Player Controller Does Not Exist - PathCollider");
 			} else {
-				// to be implemented
+				Debug.Log("Player Should Now Animate");
+				if(!controller.followingPath) {
+					controller.StartPath(path.nodes[0]);
+				}
 			}
 		}
 		if(other.gameObject.tag == "ai") {
