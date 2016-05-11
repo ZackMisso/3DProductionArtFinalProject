@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class MovieScript : MonoBehaviour {
-	public List<Renderer> rends = new List<Renderer>();
-	public float changeInterval = 0.066f;
+	public List<MeshRenderer> rends = new List<MeshRenderer>();
+	public float changeInterval = 0.033f;
 	public List<Texture> textures = new List<Texture>();
 
 	// Update is called once per frame
@@ -15,7 +15,7 @@ public class MovieScript : MonoBehaviour {
 		int index = Mathf.FloorToInt(Time.time / changeInterval);
     index = index % textures.Count;
 		for(int i=0;i<rends.Count;i++) {
-    	rends[i].material.mainTexture = textures[index];
+			rends[i].material.mainTexture = textures[index];
 		}
 	}
 }
